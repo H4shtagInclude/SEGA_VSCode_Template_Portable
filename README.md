@@ -1,14 +1,19 @@
-#SGDK Visual Studio Code Template
+# SGDK Visual Studio Code Template
 
-== Setting up SGDK with Visual Studio Code
+### Getting the code
+* To get the code all you need to do is clone the repository with this simple command.  
+```bat
+git clone https://github.com/H4shtagInclude/SEGA_VSCode_Template_Portable.git --recursive
+```
 
-This small project will help to setup a working environment (tested in Windows) for Sega Mega Drive developing with SGDK toolchain and Visual Studio Code as prefered editor. Visual Studio Code will be setup with c/cpp code extension and tasks to build and clean the workspace.
+* If you get an error like...  
+*'git' is not recognized as an internal or external command,
+operable program or batch file.*  
+you most likly need to install git either by going to [Git for Windows](https://git-scm.com/download/win) or using the [Chocolatey Package Manager](https://chocolatey.org/install)
 
 
-=== Prerequisites
-
-. Download link:https://github.com/Stephane-D/SGDK[SGDK]
-. Download link:https://code.visualstudio.com/[Visual Studio Code]
+### Building your sega genesis/mega drive game.
+Open up Visual Studio Code and open the cloned directory 
 
 
 === Setup
