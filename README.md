@@ -22,23 +22,12 @@ you most likly need to install git either by going to [Git for Windows](https://
       ```
 
 
-### Building your sega genesis/mega drive game.
-Open up Visual Studio Code and open the cloned directory 
+### Making a workspace for your project
+This is quite simple, just open up Visual Studio Code and press `Control + K or Control + O` to open a directory or `File > Open Folder`.  
+You will get a prompt asking if the directory is safe to open, click `Yes, I trust the authors.` ~~This can be changed later~~  
 
+Now you've got a temporary workspace, you can save it by going to `File > Save Workspace As...`
 
-=== Setup
-
-* Extract SGDK to a prefered directory.
-* Create an environment variable `GDK` pointing to the SGDK directory (e.g. "C:/dev/sgdk").
-* Install Visual Studio Code.
-* Install the following extensions in vsCode: `C/C++ for Visual Studio Code`
-* Clone this github repo: `git clone https://github.com/pleft/SEGA_VSCode_Template.git`.
-
-=== Usage
-
-* Open `VSCode` and `File->Open Folder...` and choose the folder of the checked out repository.
-* Folder `.vscode` contains two files: `c_cpp_properties.json` and `tasks.json`
-    * In `c_cpp_properties.json` it is added the include folder of the `SGDK`: `"includePath": ["${GDK}/inc"]`
-    * In `tasks.json` there are 2 tasks to help build and clean the project, `make` and `clean`. 
-        - To run `make` task press `Ctrl-Shift-B`.
-        - To run `make` or `clean` press `Ctrl-P` then write `task make` or `task clean`.
+### Building your sega genesis/mega drive program.
+~~Emphasis on the word "Program" as the SGDK can be used for more than Game Development.~~
+To instantly build your program just press `Control + Shift + B` or `Terminal > Run Build Task`
