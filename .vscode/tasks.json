@@ -9,10 +9,10 @@
         {
             "group": "build",
             "label": "make",
-            "command": "${workspaceFolder}\\sgdk\\bin\\make",
+            "command": "${workspaceFolder}/sgdk/bin/make",
             "args": [
                 "-f",
-                "${workspaceFolder}\\sgdk\\makefile.gen"
+                "${workspaceFolder}/sgdk/makefile.gen"
             ],
             "presentation": {
                 "echo": true,
@@ -27,9 +27,9 @@
 
         {
             "label": "run",
-            "command": "${workspaceFolder}\\gens\\gens.exe",
+            "command": "${workspaceFolder}/gens/gens.exe",
             "args": [
-                "${workspaceFolder}\\out\\rom.bin"
+                "${workspaceFolder}/out/rom.bin"
             ],
 
             "presentation": {
@@ -45,11 +45,11 @@
 
         {
             "label": "clean",
-            "command": "c:\\sgdk\\bin\\make",
+            "command": "c:/sgdk/bin/make",
             "args": [
                 "clean",
                 "-f",
-                "c:\\sgdk\\makefile.gen"
+                "c:/sgdk/makefile.gen"
             ],
             "presentation": {
                 "echo": true,
