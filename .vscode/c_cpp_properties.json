@@ -2,7 +2,7 @@
     "configurations": [
         {
             "name": "Win32",
-            "includePath": ["${GDK}/inc"],
+            "includePath": ["C:\\sgdk\\inc", "C:\\sgdk\\res"],
             "browse" : {
                 "limitSymbolsToIncludedHeaders" : true,
                 "databaseFilename" : ""
