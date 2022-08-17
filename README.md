@@ -1,3 +1,5 @@
+#SGDK Visual Studio Code Template
+
 == Setting up SGDK with Visual Studio Code
 
 This small project will help to setup a working environment (tested in Windows) for Sega Mega Drive developing with SGDK toolchain and Visual Studio Code as prefered editor. Visual Studio Code will be setup with c/cpp code extension and tasks to build and clean the workspace.
